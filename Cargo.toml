@@ -31,6 +31,9 @@ failure = "0.1.5"
 walkdir = "2.2.7"
 either = "1.5.2"
 mkdirp = "1.0.0"
+# async-std = { git = "https://github.com/passcod/async-std-unstable", branch = "unstable" }
+async-std = { git = "https://github.com/vertexclique/async-std", branch = "ema-based-statistically-adaptive-thread-pool"}
+futures-preview = "0.3.0-alpha.18"
 
 [target.'cfg(unix)'.dependencies]
 chownr = "2.0.0"
